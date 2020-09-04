@@ -1,0 +1,35 @@
+.header-f{
+    height: 60px;
+    line-height: 60px;
+}
+.header-f>div:first-child{
+    text-align: center;
+}
+.header-a{
+    display: flex;
+    justify-content: space-around;
+}
+.header-a>li{
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+    z-index: 1000;
+}
+.header-a>li>a,.header-login>li>a{
+    color: #838383;
+    font: 16px "微软雅黑";
+    transition: all 0.5s;
+}
+.header-a>li:hover{
+    border-bottom: 2px solid red;
+}
+.header-a>li:hover>a,.header-login>li:hover>a{
+    color: red;
+    text-decoration: none;
+}
+.header-login{
+    display: flex;
+    
+}
+.header-login>li{
+    z-index: 1000;
+}

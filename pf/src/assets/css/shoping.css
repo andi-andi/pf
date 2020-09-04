@@ -1,0 +1,96 @@
+.shoping-title{
+    font-size: 30px;
+    font-family: HELVETICANEUELTPRO-THEX, 微软雅黑;
+    color: #444;
+}
+.shoping-product{
+    font-size: 15px;
+    color: #a5a5a5;
+    font-family: "微软雅黑";
+}
+.product-ul{
+   margin: 0;
+   padding: 0;
+   width: 355px;
+   height: 120px;
+   display: flex;
+   justify-content: space-between;
+   margin:  0 auto;
+   padding: 22px 0 80px;
+}
+.product-ul>li>a{
+    font-size: 14px;
+    color: #aaa;
+    font-family: "微软雅黑";
+    transition: all 0.2s;
+}
+.product-ul>li>a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.active{
+    color: #000;  
+}
+.img-h{
+    overflow: hidden;
+    width: 100%;
+    transition: all 0.5s;
+    padding-bottom: 20px;
+}
+.img-h img{
+    transition: all 0.5s;
+}
+.font-mac{
+    font-size: 16px;
+    font-family: "HELVETICANEUELTPRO-THEX", "微软雅黑";
+    color: #565656;
+
+}
+.font-size{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #929292;
+
+}
+.product-animation:hover .img-h{
+    padding-bottom: -20px;
+}
+.product-animation:hover .img-h img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.font-a{
+    transition: all 0.2s;
+}
+.product-animation:hover .font-a{
+    color: red;
+    cursor: pointer;
+}
+.sskfrom{
+    display: inline-block;
+}
+.input1{
+    width: 160px;
+    height: 36px;
+    border-radius:5px 0px 0 5px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666;
+    outline:0px;
+    border: 1px solid #666 ;
+}
+.input2{
+    width: 60px;
+    height: 36px;
+    background: #28b06b;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+.input2:hover{
+    cursor: pointer;
+}

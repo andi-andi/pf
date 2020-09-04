@@ -1,0 +1,346 @@
+/* 促销价格区域 */
+.cx{
+    padding-top: 88px;
+}
+.cx-title{
+   text-align: center;
+}
+.cx-title>p:first-child{
+    font: 14px "Open Sans",sans-serif;
+    font-weight: 600;
+    color: #937c67;
+    line-height: 3;
+}
+.cx-title>p:last-child{
+    font: 60px Lucida,serif;
+    color: #2f2f2f;
+}
+.index-relate{
+    position: relative;
+    overflow: hidden;
+}
+.index-relate>div:first-child{
+    overflow: hidden;
+}
+.index-relate>div:first-child>img{
+    transition: all 0.5s;
+}
+.index-relate:hover>div:first-child>img{
+    transform: scale(1.2);
+}
+.detalis-index{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s;
+    padding: 10px 0;
+    margin-top: -35px;
+}
+.detalis-index>p:first-child{
+    font: 30px Lucida,serif;
+}
+.detalis-index>p:last-child{
+    font: 14px "Open Sans",sans-serif;
+}
+.index-relate:hover .detalis-index{
+    left: -100%;
+}
+.goshopping-a{
+    background-color: #2f2f2f;
+    text-align: center;
+    line-height: 3;
+    transition: all .2s;
+}
+.goshopping-a>a{
+    color: #fff;
+    font: 20px Lucida,serif;
+    transition: all .2s;
+}
+.goshopping-a:hover{
+    background-color: #1f1f1f;
+}
+.goshopping-a:hover a{
+    text-decoration: none;
+    color: #937c67;
+}
+.wy-index>p:first-child{
+    font: 50px Arial "微软雅黑" !important;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    color: #555;
+}
+.wy-index>span:last-child{
+    font: 13px MTTMilano;
+    display: inline-block;
+    color: #bbb;
+}
+.index-relate-img{
+    position: relative;
+    perspective: 100;
+    overflow: hidden;
+}
+.index-relate-img>div:first-child{
+    overflow: hidden;
+} 
+ .index-relate-img>div:first-child>img{
+    transition: all 0.5s;
+}
+.index-relate-img:hover>div:first-child>img{
+    transform: scale(1.1);
+}
+.index-relate-img:hover{
+    cursor: pointer;
+}
+.preserve{
+    transform-style: preserve-3d;
+    transition: all 0.36s ease;
+    position: absolute;
+    width: 80%;
+    background-color: #fff;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    padding: 10%;
+    transform: rotateY(-90deg);
+}
+.index-relate-img:hover .preserve{
+    transform: rotateY(0);
+}
+.text-none{
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.text-none>p:first-child{
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "MTTMilano";
+}
+.text-none>p:nth-child(2){
+    font-family: MTTMilano, 微软雅黑;
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+}
+.text-none>p:nth-child(3){
+    padding: 20% 0;
+    font-family: MTTMilano, 微软雅黑;
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+.button-detalis{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    color: red;
+    display: block;
+    line-height: 2;
+    transition: all 0.2s;
+    background-color: #fff;
+}
+.button-detalis:hover{
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+}
+.uname-position{
+    position: relative;
+}
+.uname-position:hover{
+    cursor: pointer;
+}
+.uanme-abaole{
+    position: absolute;
+    width: 100%;
+    top:60%;
+    left: 5%;
+    padding-left: 20px;
+    transition: all 0.5s;
+}
+.uname-position:hover .uanme-abaole{
+    left: 10%;
+}
+.uanme-abaole>p:first-child{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "MTTMilano";
+    color: #333;
+}
+.uanme-abaole>p:last-child{
+    font-size: 13px;
+    font-family: "微软雅黑";
+    color: #999;
+    line-height: 3;
+}
+.uname-position>a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.6);
+    transition: all 0.5s;
+}
+.uname-position:hover>a{
+    width: 100%;
+}
+.img-relate{
+    position: relative;
+    height: 900px;
+}
+.img-relate>div{
+    width: 285px;
+    overflow: hidden;
+    position: absolute;
+}
+.img-relate>div img{
+    transition: all 0.5s;
+}
+.img-relate>div:hover img{
+    transform: scale(1.1);
+}
+.img-relate>div:nth-child(1){
+    top: 250px;
+    left: 0px;
+}
+.img-relate>div:nth-child(2){
+    top: 100px;
+    left: 285px;
+}
+.img-relate>div:nth-child(3){
+    top: 385px;
+    left: 285px;
+}
+.img-relate>div:nth-child(4){
+    top: 0px;
+    left: 570px;
+}
+.img-relate>div:nth-child(5){
+    top: 285px;
+    left: 570px;
+}
+.img-relate>div:nth-child(6){
+    top: 570px;
+    left: 570px;
+}
+.img-relate>div:nth-child(7){
+    top: 250px;
+    left: 855px;
+}
+.margin-fg{
+    width: 100%;
+    border-bottom: 3px solid #333;
+}
+.xinwen-titlefont{
+    text-align: center;
+    font: 20px "微软雅黑";
+    color: #937c67;
+}
+.xiwen-f>div:first-child{
+    overflow: hidden;
+}
+.xiwen-f>div:first-child>img{
+    transition: all 0.5s;
+}
+.xiwen-f:hover>div:first-child>img{
+    transform: scale(1.2);
+}
+.xiwen-f>div:last-child{
+   padding: 10px;
+   overflow: hidden;
+}
+.xiwne-index{
+    text-align: center;
+    color: #555;
+    font: 16px "微软雅黑";
+    transition: all 0.2s;
+    margin-bottom: 10px;
+}
+.xiwen-f:hover .xiwne-index{
+    color: red;
+}
+.xinwen-textcont{
+    color: #999;
+    font: 14px "微软雅黑";
+    margin-bottom: 10px;
+}
+.button-lianjie{
+    display: block;
+    width: 0%;
+    text-align: center;
+    border-radius: 10%;
+    font: 18px "微软雅黑";
+    color: #fff;
+    background-color: #937c67;
+    border-radius: 20px;
+    height: 40px;
+    overflow: hidden;
+    transition: all 0.5s;
+    line-height: 40px;
+}
+.xiwen-f:hover .button-lianjie{
+    width: 100%;
+}
+.button-lianjie:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.pinpai>p{
+    text-align: center;
+    font: 20px "微软雅黑";
+    color: #937c67;
+}
+.dongtai{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #2f2f2f;
+}
+.dongtai>p{
+    color: #2f2f2f;
+    font: 16px "微软雅黑";
+}
+.lbt-div{
+    width: 100%;
+    overflow: hidden;
+}
+.lbt-div>ul{
+    display: flex;
+    animation: 10s change linear infinite;
+} 
+.lbt-div>ul>li+li{
+    margin-left: 15px;
+}
+.lbt-div>ul:hover{
+    animation-play-state: paused;
+}
+@keyframes change{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: -1200px;
+    }
+}
+.band-title{
+    font: 16px "微软雅黑";
+}
+.lianxi-wb{
+    font: 14px "微软雅黑";
+    color: #999;
+}
+.lianxi-wb>img{
+    vertical-align: middle;
+}
+.lianxi-wb>span{
+    display: inline-block;
+    vertical-align: bottom;
+}

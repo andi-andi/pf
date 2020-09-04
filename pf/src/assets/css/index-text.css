@@ -1,0 +1,62 @@
+        /*标题区域*/
+    .text-title{
+        font-size: 24px;
+        color: #333;
+        font-family: "Microsoft Yahei";
+    }
+
+    .text-sz{
+        font-family: "Microsoft Yahei";
+        font-size: 14px;
+        color: #999;
+    }
+    .title-bottom{
+        width: 100%;
+        height: 2px;
+        background-color: #ccc;
+    }
+    /*定义共同字体样式*/
+    .font-size-14{
+        font-size: 16px;
+        font-family: "仿宋体";
+        color: #666;
+        padding-bottom: 20px;
+    }
+    .text-hover{
+        transition: all 0.2s;
+    }
+    .text-hover:hover{
+        color: red;
+        text-decoration-color: red;
+    }
+    .text-img{
+        overflow: hidden;
+        position: relative;
+    }
+    .text-img>img{
+        transition: all 0.5s;
+    }
+    .text-img:hover>img{
+        transform: scale(1.2);
+    }
+    .text-img-img{
+        background-color: rgba(0,0,0,0.5);
+        transition: all 0.5s;
+        opacity: 0;
+        margin-top: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%
+    
+    }
+    .text-img:hover .text-img-img{
+        margin-top: 0;
+        opacity: 1;
+    }
+    .text-font{
+        font-size: 1rem;
+        color: #fff;
+        padding:25% 0;
+    }

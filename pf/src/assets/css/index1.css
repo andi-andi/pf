@@ -1,0 +1,60 @@
+        /*定义联系我们页面*/
+    .b{
+        margin-bottom: 6rem;
+    }
+    .w-90{
+        width: 90%;
+        text-align: center;
+        font-family: HELVETICANEUELTPRO-THEX,"微软雅黑";
+    }
+    .p-title{
+        font-size: 28px;
+        color: #444444;
+    }
+    .p-footer{
+        color: #a5a5a5;
+        margin-top: 5px;
+    }
+    .border-b{
+        border-bottom: 2px solid #eaeaea;
+
+    }
+    .mt-80{
+        margin: 80px 0;
+    }
+    .p-color-color{
+        color: #838383;
+        font-size: 14px;
+        margin-top: 5rem;
+        transition: all 0.2s;
+    }
+    .p-font{
+        font-size: 18px;
+        color: #3d3d3d;
+    }
+    .p-f{
+        font-size: 12px;
+        color: #969696;
+    }
+    .p-col{
+        /*padding-left: 4rem;*/
+        margin: 3rem 0;
+        
+        text-align: center;
+        border-right: 2px solid #eaeaea;
+    }
+    .p-col>p:first-child{
+        font-size: 18px;
+        color: #3d3d3d;
+    }
+    .p-col>p+p{
+        color: #838383;
+        font-size: 13px;
+        font-family: "微软雅黑";
+    }
+    span{
+        transition: all 0.2s;
+    }
+    .w-90 span:hover,.p-col span:hover{
+        color: red;
+    }

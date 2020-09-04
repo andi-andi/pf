@@ -1,0 +1,197 @@
+.detalis-f-img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.div-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.min{
+    min-width: 445px;
+    max-width: 445px;
+}
+.img-fdj{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    opacity: 0;
+    z-index: 100;
+}
+.igm-fad-z{
+    width: 150px;
+    height: 150px;
+    opacity: 0.6;
+   background-color: #fff;
+   position: relative;
+   opacity: 0.6;
+}
+.bg-img-img{
+    background-image: url(/images/nz1.jpg);
+    position: absolute;
+    top: 0;
+    left: 105%;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+    overflow: hidden;
+}
+.img-fdj:hover{
+    opacity: 1;
+}
+.detalis-ul{
+    display: flex;
+    overflow: hidden;
+}
+.detalis-ul>li{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin: 0 4px;
+    border:2px solid transparent ;
+}
+.li-border{
+    border: 2px solid red !important;
+}
+.pos-div{
+    position: relative;
+}
+.button-div{
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    color: #555555;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    transition: all 0.5s;
+}
+.left{
+    left: 0px;
+}
+.right{
+    right: 0px;
+}
+.button-div:hover{
+    background-color:#9a9a9a;
+    cursor: pointer;
+}
+.detalis-title{
+    font-size: 18px;
+    color: #333;
+    font-family: "微软雅黑";
+}
+
+.dt-p{
+    font-size: 15px !important;
+    font-family: "微软雅黑" !important;
+    color: #666 !important;
+}
+.img-a{
+    display: inline-block;
+    font-size: 16px;
+    width: 54px;
+    height: 32px;
+    text-align: center;
+    line-height: 20px;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    font-family: "微软雅黑";
+    transition: color 0.2s linear;
+}
+.img-a:hover{
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
+}
+.img-a-border{
+    border: 1px solid red;
+    color: red;
+}
+.detalis-product{
+    display: inline-block;
+    color: #cc0c0f;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    vertical-align: middle;
+
+}
+.ss{
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    vertical-align: middle;
+}
+.gt-a{
+    display: inline-block;
+    text-align: center;
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid red;
+    transition: all 0.2s;
+}
+.a1{
+    color: #fff;
+    background-color: rgb(172, 6, 8);
+}
+.a1:hover{
+    color: red;
+    background-color: #fff;
+    text-decoration: none;
+}
+.a2{
+    border: 1px solid #999;
+    color: #fff;
+    background-color: #999;
+}
+.a2:hover{
+    color: red;
+    background-color: #fff;
+    text-decoration: none;
+}
+.sfq-ul{
+    width: 100%;
+}
+.sfq-ul>li:first-child{
+    border-top: 2px solid #e5e5e5;
+}
+.sfq-ul>li{
+    width: 100%;
+    height: 80px;
+    padding: 20px 0;
+    line-height: 40px;
+    border-bottom: 2px solid #e5e5e5;
+    overflow: hidden;
+    transition: all 0.5s;
+    border-left: 2px solid #e5e5e5;
+    border-right: 2px solid #e5e5e5;
+}
+.tran-z{
+    height: 0;
+    opacity: 1;
+    padding: 0 4px 32px;
+}
+.tran-p{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #111;
+    transition: all 0.2s;
+}
+.tran-p:hover{
+    color: red;
+}
+.sfq-ul>li:hover{
+    height: 200px;
+}
+
